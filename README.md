@@ -10,6 +10,7 @@ The algorithm is implemented in C# (used in a .NET Core project).
 -  DIRECTORY_SIZE - The size of all files in a single directory.
 -  ALGORITHM_TIME_COEFFICIENT - The time coefficient for the algorithm.
 -  ALGORITHM_SIZE_COEFFICIENT - The size coefficient for the algorithm.
+-  PLACE - The place of the directory amongst all directories by date created (oldest's place is 1).
 
 ### The Algorithm
 #### IF ALGORITHM_TIME_COEFFICIENT * TIME ![geq](https://latex.codecogs.com/svg.image?\geq&space;) 0:
