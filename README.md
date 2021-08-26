@@ -13,7 +13,7 @@ The algorithm is implemented in C# (used in a .NET Core project).
 
 ### The Algorithm
 #### IF ALGORITHM_TIME_COEFFICIENT * TIME >= 0:
-***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / sqrt{DIR_PLACE} ![squareroot](http://latex.codecogs.com/svg.latex?%5Cleft%28%5Csqrt%7Bx%7D%5Cright%29%5E2%20%3D%20x)
+***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / sqrt{DIR_PLACE} ![squareroot](https://latex.codecogs.com/svg.image?\geq&space;)
 
 
 #### IF ALGORITHM_TIME_COEFFICIENT * TIME < 0:
