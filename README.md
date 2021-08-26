@@ -13,8 +13,8 @@ The algorithm is implemented in C# (used in a .NET Core project).
 
 ### The Algorithm
 #### IF ALGORITHM_TIME_COEFFICIENT * TIME ![geq](https://latex.codecogs.com/svg.image?\geq&space;) 0:
-***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / ![squareroot](https://latex.codecogs.com/svg.image?\sqrt{DIR_PLACE}) 
+***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / ![squareroot](https://latex.codecogs.com/svg.image?\sqrt{PLACE}) 
 
 
 #### IF ALGORITHM_TIME_COEFFICIENT * TIME ![ls](https://latex.codecogs.com/svg.image?<&space;) 0:
-***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / (DIR_PLACE)^2
+***Preference*** = (ALGORITHM_TIME_COEFFICIENT * TIME - ALGORITHM_SIZE_COEFFICIENT * DIRECTORY_SIZE) / ![squred](https://latex.codecogs.com/svg.image?PLACE^{2})
